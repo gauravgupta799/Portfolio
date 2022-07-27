@@ -50,23 +50,23 @@ $(document).ready(function() {
     });
 });
 
-// let mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById("myBtn");
 
-// window.onscroll = function(){
-//                     scrollFunction()
-//                 };
+window.onscroll = function(){
+                    scrollFunction()
+                };
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-// // When the user clicks on the button, scroll to the top of the document
-// mybutton.addEventListener("click", function topFunction() {
-//     document.body.scrollTop = 0; 
-//     document.documentElement.scrollTop = 0;
-//   }
-//   );
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+  }
+  );
